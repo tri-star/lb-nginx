@@ -1,0 +1,1 @@
+00 05 01 * * root /usr/local/letsencrypt/update.sh -s 120 /data/letsencrypt/domain_list >> /data/log/letsencrypt 2>&1

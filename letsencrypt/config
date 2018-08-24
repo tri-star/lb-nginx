@@ -1,0 +1,6 @@
+CHALLENGETYPE="http-01"
+WELLKNOWN="/usr/local/letsencrypt/well-known"
+KEY_ALGO=prime256v1
+
+CERTDIR="/data/letsencrypt/certs"
+ACCOUNTDIR="/data/letsencrypt/accounts"

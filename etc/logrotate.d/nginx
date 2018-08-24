@@ -5,6 +5,6 @@
         create 0644 www-data www-data
         sharedscripts
         postrotate
-                /usr/sbin/nginx -s reopen >/dev/null 2>&1
+                /usr/local/nginx/sbin/nginx -s reopen >/dev/null 2>&1
         endscript
 }
