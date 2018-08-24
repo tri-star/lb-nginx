@@ -11,21 +11,21 @@ This container has following features.
 * Listen HTTP/HTTPS connection on host network and pass to another container.
 
 
-This command searches log file by specified date interval.
-
-Such like "extract logs between 18:30:00 and 19:00:00".
-
 ## Usage
 
 ### General usage
 
+Work in progress.
 
 ### Example
 
+Work in progress.
 
 ## Install
 
 ### Prerequisites
+
+Work in progress.
 
 ## Contribution
 
