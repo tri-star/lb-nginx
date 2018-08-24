@@ -3,12 +3,13 @@ lb-nginx
 
 # Overview
 
-`lb-nginx` is a nginx container. This container is designed to work alternatives to cloud load balancers(e.g. Google Cloud Load Balancer) for a small scale environment.
+`lb-nginx` is a nginx container. This container is designed to work alternatives to cloud load balancers(e.g. ELB, Google Cloud Load Balancer) for a small scale environment.
 
 This container has following features.
 
-* Assign global address automaticaly to host machine(at boot time).
+* Assign global address automaticaly to host machine at boot time(Supports AWS,GCP).
 * Listen HTTP/HTTPS connection on host network and pass to another container.
+* nginx-vts support.
 
 
 ## Usage
